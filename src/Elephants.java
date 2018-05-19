@@ -1,7 +1,4 @@
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Elephants {
 
@@ -18,26 +15,11 @@ public class Elephants {
     public static void main(String[] args) {
 
         String filePath = "C:\\git\\Elephants\\InputFiles\\slo1.in";
-        Scanner scaner = null;
-        try {
-            scaner = new Scanner(new File(filePath));
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-        int n = Integer.parseInt(scaner.next());
 
-        int[] m = new int[n];
-        for (int i = 0; i < n; i++) {
-            m[i] = Integer.parseInt(scaner.next());
-        }
-        int[] a = new int[n];
-        for (int i = 0; i < n; i++) {
-            a[i] = Integer.parseInt(scaner.next());
-        }
-        int[] b = new int[n];
-        for (int i = 0; i < n; i++) {
-            b[i] = Integer.parseInt(scaner.next());
-        }
+        ReadingInput readingInput = new ReadingInput(filePath).reading();
+        int[] m = readingInput.getM();
+        int[] a = readingInput.getA();
+        int[] b = readingInput.getB();
 
         Elephants impiCode = new Elephants(m, a, b);
         int[] permutation = impiCode.generatePermutation();
@@ -106,4 +88,5 @@ public class Elephants {
         }
         return wynik;
     }
+
 }
