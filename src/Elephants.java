@@ -15,7 +15,7 @@ public class Elephants {
     public static void main(String[] args) {
 
 
-        String filePath = "/home/s235jr/workspace/Elephants/InputFiles/slo1.in";
+        String filePath = "/home/s235jr/workspace/Elephants/InputFiles/slo1.in"; //scieżka dla linuksa
         
         ReadingInput readingInput = new ReadingInput(filePath).reading();
         int[] m = readingInput.getM();
