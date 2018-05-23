@@ -12,135 +12,135 @@ class ElephantsTest {
     @Test
     void checkResult01() throws Exception {
 
-        String filePathInput = "C:\\git\\Elephants\\InputFiles\\slo1.in";
-        String filePathResult = "C:\\git\\Elephants\\InputFiles\\slo1.out";
+        String filePathInput = "/home/s235jr/workspace/Elephants/InputFiles/slo1.in";
+        String filePathResult = "/home/s235jr/workspace/Elephants/InputFiles/slo1.out";
         test(filePathInput, filePathResult);
     }
 
     @Test
     void checkResult02() throws Exception {
 
-        String filePathInput = "C:\\git\\Elephants\\InputFiles\\slo2.in";
-        String filePathResult = "C:\\git\\Elephants\\InputFiles\\slo2.out";
+        String filePathInput = "/home/s235jr/workspace/Elephants/InputFiles/slo2.in";
+        String filePathResult = "/home/s235jr/workspace/Elephants/InputFiles/slo2.out";
         test(filePathInput, filePathResult);
     }
 
     @Test
     void checkResult03() throws Exception {
 
-        String filePathInput = "C:\\git\\Elephants\\InputFiles\\slo3.in";
-        String filePathResult = "C:\\git\\Elephants\\InputFiles\\slo3.out";
+        String filePathInput = "/home/s235jr/workspace/Elephants/InputFiles/slo3.in";
+        String filePathResult = "/home/s235jr/workspace/Elephants/InputFiles/slo3.out";
         test(filePathInput, filePathResult);
     }
 
     @Test
     void checkResult04() throws Exception {
 
-        String filePathInput = "C:\\git\\Elephants\\InputFiles\\slo4.in";
-        String filePathResult = "C:\\git\\Elephants\\InputFiles\\slo4.out";
+        String filePathInput = "/home/s235jr/workspace/Elephants/InputFiles/slo4.in";
+        String filePathResult = "/home/s235jr/workspace/Elephants/InputFiles/slo4.out";
         test(filePathInput, filePathResult);
     }
 
     @Test
     void checkResult05() throws Exception {
 
-        String filePathInput = "C:\\git\\Elephants\\InputFiles\\slo5.in";
-        String filePathResult = "C:\\git\\Elephants\\InputFiles\\slo5.out";
+        String filePathInput = "/home/s235jr/workspace/Elephants/InputFiles/slo5.in";
+        String filePathResult = "/home/s235jr/workspace/Elephants/InputFiles/slo5.out";
         test(filePathInput, filePathResult);
     }
 
     @Test
     void checkResult06() throws Exception {
 
-        String filePathInput = "C:\\git\\Elephants\\InputFiles\\slo6.in";
-        String filePathResult = "C:\\git\\Elephants\\InputFiles\\slo6.out";
+        String filePathInput = "/home/s235jr/workspace/Elephants/InputFiles/slo6.in";
+        String filePathResult = "/home/s235jr/workspace/Elephants/InputFiles/slo6.out";
         test(filePathInput, filePathResult);
     }
 
     @Test
     void checkResult07() throws Exception {
 
-        String filePathInput = "C:\\git\\Elephants\\InputFiles\\slo7.in";
-        String filePathResult = "C:\\git\\Elephants\\InputFiles\\slo7.out";
+        String filePathInput = "/home/s235jr/workspace/Elephants/InputFiles/slo7.in";
+        String filePathResult = "/home/s235jr/workspace/Elephants/InputFiles/slo7.out";
         test(filePathInput, filePathResult);
     }
 
     @Test
     void checkResult08() throws Exception {
 
-        String filePathInput = "C:\\git\\Elephants\\InputFiles\\slo1ocen.in";
-        String filePathResult = "C:\\git\\Elephants\\InputFiles\\slo1ocen.out";
+        String filePathInput = "/home/s235jr/workspace/Elephants/InputFiles/slo1ocen.in";
+        String filePathResult = "/home/s235jr/workspace/Elephants/InputFiles/slo1ocen.out";
         test(filePathInput, filePathResult);
     }
 
     @Test
     void checkResult09() throws Exception {
 
-        String filePathInput = "C:\\git\\Elephants\\InputFiles\\slo2ocen.in";
-        String filePathResult = "C:\\git\\Elephants\\InputFiles\\slo2ocen.out";
+        String filePathInput = "/home/s235jr/workspace/Elephants/InputFiles/slo2ocen.in";
+        String filePathResult = "/home/s235jr/workspace/Elephants/InputFiles/slo2ocen.out";
         test(filePathInput, filePathResult);
     }
 
     @Test
     void checkResult10() throws Exception {
 
-        String filePathInput = "C:\\git\\Elephants\\InputFiles\\slo3ocen.in";
-        String filePathResult = "C:\\git\\Elephants\\InputFiles\\slo3ocen.out";
+        String filePathInput = "/home/s235jr/workspace/Elephants/InputFiles/slo3ocen.in";
+        String filePathResult = "/home/s235jr/workspace/Elephants/InputFiles/slo3ocen.out";
         test(filePathInput, filePathResult);
     }
 
     @Test
     void checkResult11() throws Exception {
 
-        String filePathInput = "C:\\git\\Elephants\\InputFiles\\slo3ocen.in";
-        String filePathResult = "C:\\git\\Elephants\\InputFiles\\slo3ocen.out";
+        String filePathInput = "/home/s235jr/workspace/Elephants/InputFiles/slo3ocen.in";
+        String filePathResult = "/home/s235jr/workspace/Elephants/InputFiles/slo3ocen.out";
         test(filePathInput, filePathResult);
     }
 
     @Test
     void checkResult12() throws Exception {
 
-        String filePathInput = "C:\\git\\Elephants\\InputFiles\\slo8a.in";
-        String filePathResult = "C:\\git\\Elephants\\InputFiles\\slo8a.out";
+        String filePathInput = "/home/s235jr/workspace/Elephants/InputFiles/slo8a.in";
+        String filePathResult = "/home/s235jr/workspace/Elephants/InputFiles/slo8a.out";
         test(filePathInput, filePathResult);
     }
 
     @Test
     void checkResult13() throws Exception {
 
-        String filePathInput = "C:\\git\\Elephants\\InputFiles\\slo8b.in";
-        String filePathResult = "C:\\git\\Elephants\\InputFiles\\slo8b.out";
+        String filePathInput = "/home/s235jr/workspace/Elephants/InputFiles/slo8b.in";
+        String filePathResult = "/home/s235jr/workspace/Elephants/InputFiles/slo8b.out";
         test(filePathInput, filePathResult);
     }
 
     @Test
     void checkResult14() throws Exception {
 
-        String filePathInput = "C:\\git\\Elephants\\InputFiles\\slo9a.in";
-        String filePathResult = "C:\\git\\Elephants\\InputFiles\\slo9a.out";
+        String filePathInput = "/home/s235jr/workspace/Elephants/InputFiles/slo9a.in";
+        String filePathResult = "/home/s235jr/workspace/Elephants/InputFiles/slo9a.out";
         test(filePathInput, filePathResult);
     }
 
     @Test
     void checkResult15() throws Exception {
 
-        String filePathInput = "C:\\git\\Elephants\\InputFiles\\slo9b.in";
-        String filePathResult = "C:\\git\\Elephants\\InputFiles\\slo9b.out";
+        String filePathInput = "/home/s235jr/workspace/Elephants/InputFiles/slo9b.in";
+        String filePathResult = "/home/s235jr/workspace/Elephants/InputFiles/slo9b.out";
         test(filePathInput, filePathResult);
     }
     @Test
     void checkResult16() throws Exception {
 
-        String filePathInput = "C:\\git\\Elephants\\InputFiles\\slo10a.in";
-        String filePathResult = "C:\\git\\Elephants\\InputFiles\\slo10a.out";
+        String filePathInput = "/home/s235jr/workspace/Elephants/InputFiles/slo10a.in";
+        String filePathResult = "/home/s235jr/workspace/Elephants/InputFiles/slo10a.out";
         test(filePathInput, filePathResult);
     }
 
     @Test
     void checkResult17() throws Exception {
 
-        String filePathInput = "C:\\git\\Elephants\\InputFiles\\slo10b.in";
-        String filePathResult = "C:\\git\\Elephants\\InputFiles\\slo10b.out";
+        String filePathInput = "/home/s235jr/workspace/Elephants/InputFiles/slo10b.in";
+        String filePathResult = "/home/s235jr/workspace/Elephants/InputFiles/slo10b.out";
         test(filePathInput, filePathResult);
     }
 
