@@ -14,6 +14,7 @@ public class Elephants {
 
     public static void main(String[] args) {
 
+
         String filePath = "/home/s235jr/workspace/Elephants/InputFiles/slo1.in";
 
         ReadingInput readingInput = new ReadingInput(filePath).reading();
@@ -24,6 +25,7 @@ public class Elephants {
         Elephants impiCode = new Elephants(m, a, b);
         int[] permutation = impiCode.generatePermutation();
         ArrayList<ArrayList<Integer>> outer = impiCode.generateParse(permutation);
+
         int min = impiCode.findMin();
         long wynik = impiCode.findResult(outer, min);
         System.out.println(wynik);

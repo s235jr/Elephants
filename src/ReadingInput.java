@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class ReadingInput {
 
     private String filePath;
-    private Scanner scaner;
     private int[] m;
     private int[] a;
     private int[] b;
