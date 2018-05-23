@@ -16,6 +16,7 @@ public class Elephants {
 
 
         String filePath = "/home/s235jr/workspace/Elephants/InputFiles/slo1.in";
+        
         ReadingInput readingInput = new ReadingInput(filePath).reading();
         int[] m = readingInput.getM();
         int[] a = readingInput.getA();
